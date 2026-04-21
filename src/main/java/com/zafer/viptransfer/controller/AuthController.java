@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/auth")
+@CrossOrigin(origins = "https://zafer-vip-transfer-frontend.vercel.app")
 public class AuthController {
 
     private final AuthenticationManager authenticationManager;
