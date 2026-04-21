@@ -1,5 +1,5 @@
 package com.zafer.viptransfer.controller;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 import com.zafer.viptransfer.dto.LoginRequest;
 import com.zafer.viptransfer.dto.LoginResponse;
 import com.zafer.viptransfer.security.JwtUtil;
